@@ -1,0 +1,33 @@
+body {
+    font-family: 'Times New Roman', serif;
+    color: #1f1f3b;
+   background-color: antiquewhite;
+}
+
+.hero {
+display: flex;
+justify-content: center;
+}
+
+.contacts-text {
+    display: flex;
+    justify-content: center;
+}
+.list {
+    display: flex;
+    justify-content: center; 
+}
+.subtitle {
+    display: flex;
+    justify-content: center; 
+}
+.about-me {
+    display: flex;
+    justify-content: center;  
+    
+}
+.main-image {
+    display: flex;
+    justify-content: center;  
+    
+}
