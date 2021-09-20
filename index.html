@@ -6,28 +6,105 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="hero">
-        <div class="main">
-            <h1><span class="brand">Yana Atrashkevich</span></h1>
-            <div class="main-image">
-                <img src="img/qfu_0pgROkI.jpg" alt="Selfie" width="162x" height="216px">
+    <header class="header">
+        <div class="container">
+            <div class="header-body">
+                <p class="header-logo">CV</p>
+                <nav class="header-menu">
+                    <ul class="header-list">
+                      <li>
+                          <a href="#link1" class="header-link">Contacts</a>
+                        </li>
+                      <li>
+                        <a href="#link2" class="header-link">Education</a>
+                    </li>
+                      <li>
+                        <a href="#link3" class="header-link">About me</a>
+                    </li>
+                      <li>
+                        <a href="#link4" class="header-link">Key strengths</a>
+                    </li>
+                      <li>
+                        <a href="#link5" class="header-link">Skills</a>
+                    </li>
+                      <li>
+                        <a href="#link6" class="header-link">Code example</a>
+                    </li> 
+                    </ul>
+                </nav>
             </div>
         </div>
       </header>
-      <main class="main-text">
-          <div class="contacts">
-              <h2><span class="subtitle">Contacts:</span></h2>
-              <ul>
-                  <li>Address: Minsk City, Belarus</li>
-                  <li>Mob.: +375447388398</li>
-                  <li>email: Yana_atrashkevich@tut.by</li>
-                  <li>github: Yana-atrashkevich</li>
-              </ul>
-          </div>
-          <div class="about">
-              <h2><span class="subtitle">About me:</span></h2>
-              <h3><span class="about-me">In 2016 I graduated from BNTU. I am an accountant by education. Among my hobbies are drawing, modeling, fitness. I like working with my hands. I consider my main qualities to be the ability to find a common language with people and perseverance in achieving goals. So far I have no experience in IT, but I have a great desire to change my life and master a new profession.</span></h3>
-      </div>
-  </main>
+      <main>
+        <div class="left">
+            <img src="img/qfu_0pgROkI.jpg" alt="Selfie" width="350" height="450">
+            <div class="contacts">
+                <h2 id="link1"><span class="contacts-title">Contacts</span></h2>
+                <ul class="contacts-list">
+                    <li>Phone: +375 (44) 738 83 98</li>
+                    <li>Email: Yana_atrashkevich@tut.by</li>
+                    <li>Address: Minsk, Belarus</li>
+                    <li>GitHub: Yana-atrashkevich</li>
+                </ul>
+            </div>
+            <div class="education">
+              <h2 id="link2"><span class="education-title">Education</span></h2>
+              <ul class="education-list">
+                <li>2010-2016
+                    <br>Belarusian National Technical University,
+                    <br>Faculty of Management Technologies and 
+                    <br>Humanitarization</li>
+                <li><br>From 2021 to the present:
+                    <br>RS School,
+                    <br>Software Engineer, JavaScript/Front-end
+                </li>
+            </ul>
+            </div>
+        </div>
+        <div class="right">
+            <h1><span class="brand">Yana Atrashkevich</span></h1>
+            <div class="about-me">
+                <h2 id="link3"><span class="about-me-title">About me</span></h2>
+                <p class="about-text">I am 29 years old.
+                   I love listening to music, reading books and learning something new.
+                   Now I have set myself the puff of becoming a front-end developer.
+                   I didn’t have any programming experience before, but I had a great desire to change my life and do what I like. I have a goal and I will come to it.</p>
+            </div>
+            <div class="key-strengths">
+                <h2 id="link4"><span class="key-strengths-title">Key strengths</span></h2>
+                <ul class="strengths">
+                    <li>Responsible</li>
+                    <li>Hardworking</li>
+                    <li>Sociable</li>
+                    <li>Non-conflict</li>
+                </ul>
+            </div>
+            <div class="skills">
+                <h2 id="link5"><span class="skills-title">Skills</span></h2>
+                <ul class="skill">
+                    <li>Russian language - native</li>
+                    <li>English - A1 (A2 in process)</li>
+                    <li>HTML/CSS/JS/Git - a basic level of</li>
+                </ul>
+            </div>
+            <div class="code">
+                <h2 id="link6"><span class="code-title">Code example</span></h2>
+                <a class="project-link" href="code-example/index.html">Project "Book"</a> 
+            </div>
+        </div>
+      </main>  
+      <footer>
+          <div class="section-footer">
+            <a class="github-link" href="https://github.com/yana-atrashkevich">
+                <img src="img/Image1.png" alt="GitHub" width="60" height="60">
+                <p>My GitHub</p>
+            </a>
+            <p class="year">2021</p>
+            <a class="rss-link" href="https://rs.school/js/">
+              <img src="img/rs_school_js.svg" alt="RSSchool link">
+            </a>
+    
+         </div>  
+      </footer>
 </body>
 </html>
